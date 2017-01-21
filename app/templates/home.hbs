@@ -20,8 +20,8 @@ phone : {{input type=textbox value=phone}} <br/><br/>
 </div>
 
 
-{{#each model.RestResponse.result as |item|}}
-    {{item.name}} {{item.alpha2_code}}  <br/>
+{{#each content as |item|}}
+        {{item.avatar_url}} <br/>
 {{/each}}
 
 

@@ -6,6 +6,8 @@ export default Ember.Controller.extend({
 
     actions:{
         gototestpage : function(){
+          
+           console.log(this.get('model'))
            console.log(this.get('model'))
         },
         gotoanotherpage :function(){
