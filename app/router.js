@@ -11,6 +11,7 @@ Router.map(function() {
   this.route('testpage');
   this.route('resultpage');
   this.route('adminhome');
+  this.route('faq');
 });
 
 export default Router;
