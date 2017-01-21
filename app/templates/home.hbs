@@ -1,0 +1,33 @@
+
+
+<h1> Welcome to home page </h1>
+
+<div id="inputform" class="formdiv {{email}}">
+Name : {{input type=textbox value=name}} <br/><br/>
+
+email : {{input type=textbox value=email}}{{errormessage}} <br/><br/>
+
+phone : {{input type=textbox value=phone}} <br/><br/>
+
+
+
+    <input type=button value="submit" {{action 'gototestpage'}}> 
+
+    you have to enter atleast a name
+
+
+
+</div>
+
+
+{{#each model.RestResponse.result as |item|}}
+    {{item.name}} {{item.alpha2_code}}  <br/>
+{{/each}}
+
+
+
+
+
+
+
+ 
