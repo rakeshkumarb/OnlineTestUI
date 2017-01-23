@@ -2,17 +2,9 @@
 
 
     <div>
-  <div class="form-group">
-    <label for="firstname">First Name</label>
-    {{input type="text" class="form-control" id="fname"
-    placeholder="First name"}}
-  </div>
 
-  <div class="form-group">
-    <label for="lastname">Last Name</label>
-    {{input type="text" class="form-control" id="lname"
-    placeholder="Last name"}}
-  </div>
+
+{{partial 'names'}}
 
   <div class="form-group">
     <label for="Phone">Phone Number</label>
@@ -24,7 +16,7 @@
      {{select-component dropdowntype="test" listitem=testlist selecteditem=selectedtest}}
   </div>
  
-  <button type="submit" class="btn btn-default">Submit</button>
+  <button type="submit" class="btn btn-default" {{action 'sayhello' "umashankar"}}>Submit</button>
     </div>
 
 
