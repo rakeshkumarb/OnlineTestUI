@@ -1,7 +1,7 @@
 import Ember from 'ember';
-import utilmixin from '.';
+//import utilmixin from '..';
 
-export default Ember.Controller.extend(utilmixin, {
+export default Ember.Controller.extend(/*utilmixin,*/ {
 
     list:['uma','vikram','sweta','rakesh'],
     testlist : ['programming fundamentals', 'JAVA'],

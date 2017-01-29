@@ -12,6 +12,7 @@ Router.map(function() {
   this.route('resultpage');
   this.route('adminhome');
   this.route('faq');
+  this.route('register');
 });
 
 export default Router;
